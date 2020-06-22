@@ -1,0 +1,190 @@
+*{
+    margin:0px;
+    padding:0px;
+	list-style:none;
+	color:white;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+html{
+	background-color:rgb(100,100,100);
+}
+
+body{
+	width:100%;
+}
+
+header{
+	width:100%;
+	padding-top:30px;
+	padding-left:30px;
+	background-color:rgb(100, 100, 100);
+}
+
+h1{
+    padding-bottom:30px;
+	display:block;
+	height:78px;
+	width:278px;
+	background-image:url("../img/LOGOSOFT.png");
+	background-repeat:no-repeat;
+}
+
+h1>a{
+    color:rgba(0,0,0,0);
+    text-decoration:none;
+    font-weight:bold;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+	display:block;
+	height:78px;
+	width:278px;
+}
+
+div#mainContent{
+	display:flex;
+	flex-flow: column wrap;
+	align-items: center;
+	width:100%;
+	background-color:rgb(70,70,70);
+	padding-top:30px;
+}
+
+p.errorMessage{
+	color:red;
+	margin-bottom:20px;
+}
+
+p.confirmMessage{
+	color:green;
+	margin-bottom:20px;
+}
+
+td#addCustomer{
+	padding:0px;
+}
+
+td#addCustomer:hover{
+	background-color:rgb(100,100,100);
+}
+
+td#addCustomer>a{
+	display:block;
+	padding:5px;
+	text-align:center;
+}
+
+table{
+	border-collapse:collapse;
+	margin:20px auto 30px auto;
+	font-size:12pt;
+	font-family:Arial, Helvetica, sans-serif;
+	width:90%;
+}
+
+td{
+	border:1px solid rgb(100,100,100);
+	padding-left:5px;
+	padding:10px 0 10px 5px;
+}
+
+tr.white td{
+	background-color:white;
+	color:black;
+}
+
+tr.grey td{
+	background-color:rgb(200,200,200);
+	color:black;
+}
+
+button#importButton{
+	padding:5px;
+	background-color:rgb(100, 100, 100);
+	margin-bottom:30px;
+}
+
+button#importButton:hover{
+	background-color:rgb(150, 150, 150);
+	cursor:pointer;
+}
+
+form{
+    padding:10px 0 20px 0;
+	margin-bottom:20px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+form#importFile{
+	border:1px solid white;
+	width:40%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius:10px;
+	text-align:center;
+	display:none;
+	visibility:hidden;
+}
+
+div.addEdit{
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	width:50%;
+	border-radius:10px;
+	border:1px solid white;
+	margin-bottom:30px;
+}
+
+div.addEdit>form{
+	width:50%;
+	text-align:right;
+}
+
+div.addEdit>form input{
+	width:70%;
+	margin-right:30px;
+	margin-bottom:5px;
+}
+
+label#addFile{
+	display:block;
+}
+
+input{
+	color:black;
+    background-color:white;
+}
+
+input.validButton{
+	background-color:rgb(120,120,120);
+	padding:10px;
+	border-radius:10px;
+	font-weight:bold;
+	margin-top:20px;
+}
+
+input.validButton:hover{
+	background-color:rgb(170,170,170);
+	cursor:pointer;
+}
+
+h2.formTitle{
+	text-align:center;
+	font-weight:bold;
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+img{
+    height:20px;
+}
+
+footer>p{
+    background-color:rgb(50,50,50);
+    color:white;
+    padding-top:30px;
+    padding-bottom:30px;
+    text-align:center;
+}

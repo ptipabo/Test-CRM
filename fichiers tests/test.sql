@@ -1,0 +1,1 @@
+INSERT INTO clients (id, name, phone, email, address, cp, city, customer) VALUES (null,"Bloubiboulga","04 226 33 72","vancalpi@hotmail.com","Rue Sergent Merx, 97","4000","Liège","No");
