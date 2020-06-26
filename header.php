@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
 	<meta charset="UTF-8">
-    <link rel="stylesheet" href="<?php echo $styleSheet; ?>">
+	<link rel="stylesheet" href="<?php echo $styleSheet; ?>">
+	<meta name="Exercice de candidature pour Soft & Log" content="content">
 	<?php $title = 'CRM Soft & Log'; ?>
 	<title><?php echo $title; ?></title>
 </head>
